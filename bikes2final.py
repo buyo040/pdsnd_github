@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#please type in the cities for which we have data
 cities = ['chicago', 'new york city', 'washington']
 
 CITY_DATA = { 'chicago': 'chicago.csv',
