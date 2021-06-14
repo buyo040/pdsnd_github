@@ -223,7 +223,7 @@ def data_view(df):
         start_loc += 5
         show_data = input('Do you wish to continue?: ').lower()
 
-
+#here the real calculations happen
 def main():
     while True:
         city, month, day = get_filters()
