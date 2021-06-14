@@ -4,6 +4,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#please type in the cities for which we have data
 cities = ['chicago', 'new york city', 'washington']
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -224,7 +225,7 @@ def data_view(df):
         start_loc += 5
         show_data = input('Do you wish to continue?: ').lower()
 
-
+#here the real calculations happen
 def main():
     while True:
         city, month, day = get_filters()
