@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import numpy as np
 
-#please type in the cities for which we have data
+#please type in in the following the city names for which we habe raw data
 cities = ['chicago', 'new york city', 'washington']
 
 CITY_DATA = { 'chicago': 'chicago.csv',
