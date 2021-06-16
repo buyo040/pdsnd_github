@@ -14,6 +14,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days = ['monday', 'tuesday', 'wednesday', 'thurstday', 'friday', 'saturday', 'sunday', 'all']
 
+#Here we generate the data input from the user
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
