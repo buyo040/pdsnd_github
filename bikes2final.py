@@ -200,8 +200,8 @@ def user_stats(df, city):
     if city == "washington":
         print('No birth Year Data')
     else:
-        user_birthyear = df['Birth Year']
-        olderst_user = user_birthyear.sort_values(ascending=True)
+        user_year_of_birth = df['Birth Year']
+        olderst_user = user_year_of_birth.sort_values(ascending=True)
         print('The oldest user was born in:')
         print(olderst_user.head(1))
         youngest_user = user_birthyear.sort_values(ascending=False)
